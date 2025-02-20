@@ -1,0 +1,46 @@
+.topmenu {
+    background-color: rgb(133, 94, 50);
+    padding: 10px;
+    font-family:Friz Quadrata;
+    font-weight: bolder;
+}
+
+.topmenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.topmenu a img {
+    border: none;
+    outline: none;
+}
+
+.topmenu a {
+    text-decoration: none;
+}
+.topmenu li {
+    float: left;
+    margin-right: 20px;
+}
+
+.topmenu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topmenu li a:hover {
+    background-color: rgb(100, 60, 20);
+}
+
+@font-face {
+    font-family: Friz Quadrata;
+    src: url(../FontsCSS/friz-quadrata-regular-os-5870333951e7c.ttf);
+}
+
+body{
+    background-color:rgba(245, 222, 179, 0.705);
+}
