@@ -41,7 +41,17 @@
     src: url(friz-quadrata-regular-os-5870333951e7c.ttf);
 }
 
-body{
-    background-color:rgba(245, 222, 179, 0.705);
-    font-family:Friz Quadrata;
+body {
+    background-color: rgba(245, 222, 179, 0.705) !important;
+    font-family: Friz Quadrata !important;
+}
+
+.ubicacion{
+    text-align: center;
+    font-size: 20px;
+}
+
+.ubicacion li{
+    margin-right: 10px;
+    text-align: left;
 }

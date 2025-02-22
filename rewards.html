@@ -26,36 +26,35 @@
             </nav>
         </header>
     </div>
-    <h1 style="text-align: center;">Ubicaciones</h1>
-    <table style="margin: auto;" >
-    <tr>
-        <td>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509374!2d-122.419415484681!3d37.77492927975945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064f8e4c4b1%3A0x4c8b0b0b0b0b0b0b!2s123%20Main%20St%2C%20San%20Francisco%2C%20CA%2094105%2C%20USA!5e0!3m2!1sen!2s!4v1600000000000!5m2!1sen!2s" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </td>
-        <td class="ubicacion">
-            <b>123 Main Street</b>
-            <ul>
-                <li>2222-3333</li>
-                <li>BishopsLuxeBakes@gmail.com</li>
-                <li>Lunes a Sabado de las 07:00 a las 18:00</li>
-            </ul>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d237.33406691650967!2d-98.98876082101121!3d44.51936094667907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s456%20avenue!5e0!3m2!1ses!2sgt!4v1740190960391!5m2!1ses!2sgt" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </td>
-        <td class="ubicacion">
-            <b>456 Avenue</b>
-            <ul>
-                <li> 4444-5555</li>
-                <li> BishopsLuxeBakes@gmail.com</li>
-                <li>Lunes a Sabado de las 07:00 a las 18:00</li>
-            </ul>
-        </td>
-    </tr>
-    </table>
 
+    <div>
+        <h1 style="text-align: center;">¿Porque registrarse?</h1>
+        <p style="text-align: center;">Al registrarse miembros reciben una bolas de galletas surtidas mensuales y ingresan al programa de recompensas que otorga un reembolso del 10% en la tarjeta de miembro que se puede canjear en cualquier panadería propiedad de Ojo Dulce™</p>
+    </div>
+
+    <div class="container">
+        <h2>Registrate</h2>
+        <form action="rewards.php" method="POST">
+            <div class="mb-3">
+                <label for="name" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Número de Teléfono</label>
+                <input type="tel" class="form-control" id="phone" name="phone" required>
+            </div>
+            <div class="mb-3">
+                <label for="address" class="form-label">Dirección</label>
+                <input type="text" class="form-control" id="address" name="address" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Registrarse</button>
+        </form>
+        <br>
+        
     <footer style="text-align: center; background-color: rgb(133, 94, 50); color: seashell;">
         <p>© 2025 Bishop’s Luxe Bakes</p>
         <p>Parte de Ojo Dulce™</p>
